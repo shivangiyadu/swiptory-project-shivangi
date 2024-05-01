@@ -78,7 +78,7 @@ export const StoryCard = ({ story,setMyStories }) => {
       console.log("incoming id:", id);
 
       const response = await axios.post(
-        `http://localhost:4000/api/v1/bookmarkStory/${id}`,
+        `https://swipstory-iwwo.onrender.com/api/v1/bookmarkStory/${id}`,
         {},
         {
           headers: {
@@ -104,7 +104,7 @@ export const StoryCard = ({ story,setMyStories }) => {
       console.log("incoming id:", story._id);
 
       const response = await axios.put(
-        `http://localhost:4000/api/v1/like/${story._id}`,
+        `https://swipstory-iwwo.onrender.com/api/v1/like/${story._id}`,
         {},
         {
           headers: {
@@ -145,7 +145,7 @@ export const StoryCard = ({ story,setMyStories }) => {
         category: category,
       };
       const response = await axios.post(
-        `http://localhost:4000/api/v1/editStory/${id}`,
+        `https://swipstory-iwwo.onrender.com/api/v1/editStory/${id}`,
         storyData,
         {
           headers: { Authorization: `Bearer ${token}` },

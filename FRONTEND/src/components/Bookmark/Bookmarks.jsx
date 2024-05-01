@@ -17,7 +17,7 @@ const fetchBookmarkedStories = async () => {
     const token = localStorage.getItem('token');
     axios.defaults.headers.common["Authorization"]=token;
     console.log("Get bookmark story token", token);
-    const response = await axios.get(`http://localhost:4000/api/v1/view/BookmarkedStory`, {
+    const response = await axios.get(`https://swipstory-iwwo.onrender.com/api/v1/view/BookmarkedStory`, {
       headers: {
         Authorization: `Bearer ${token}`,
       }

@@ -40,7 +40,7 @@ export const AddStory = ({closeAddStoryModal,setMyStories}) => {
         })),
         category: category
       };
-      const response = await axios.post(`http://localhost:4000/api/v1/createStory`, storyData, {
+      const response = await axios.post(`https://swipstory-iwwo.onrender.com/api/v1/createStory`, storyData, {
         headers: { Authorization: `Bearer ${token}` }
       });
       console.log('Story created Successfully', response.data);
@@ -59,7 +59,7 @@ export const AddStory = ({closeAddStoryModal,setMyStories}) => {
       const token = localStorage.getItem('token');
       axios.defaults.headers.common["Authorization"]=token;
       console.log("GETSTORY TOKEN::", token);
-      const response = await axios.get(`http://localhost:4000/api/v1/getMyStory`, {
+      const response = await axios.get(`https://swipstory-iwwo.onrender.com/api/v1/getMyStory`, {
         headers: {
           Authorization: `Bearer ${token}`,
         }

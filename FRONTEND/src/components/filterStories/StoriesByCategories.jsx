@@ -18,7 +18,7 @@ const fetchStoriesByCategory=async(category)=>{
       axios.defaults.headers.common["Authorization"]=token;
       console.log("GET TOKEN",token);
       console.log("CATEGORRYY: ",category);
-      const response=await axios.get(`http://localhost:4000/api/v1/getStory/${category}`);
+      const response=await axios.get(`https://swipstory-iwwo.onrender.com/api/v1/getStory/${category}`);
     
       console.log("this is response !!",response.data);
         setCategoryImages(response?.data?.data)

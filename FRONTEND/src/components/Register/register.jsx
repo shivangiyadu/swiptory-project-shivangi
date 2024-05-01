@@ -15,7 +15,7 @@ const Register = ({ closeRegisterModal }) => {
 
   const AuthRegister = async (username, password) => {
     try {
-      const logLink = "http://localhost:4000/api/v1/signup";
+      const logLink = "https://swipstory-iwwo.onrender.com/api/v1/signup";
       const Response = await axios.post(logLink, { username, password });
       localStorage.setItem("token", Response.data.jwtToken);
     } catch (error) {

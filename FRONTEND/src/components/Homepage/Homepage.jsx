@@ -38,7 +38,7 @@ export const Homepage = () => {
     try {
       const token = localStorage.getItem('token');
       axios.defaults.headers.common["Authorization"] = token;
-      const response = await axios.get(`http://localhost:4000/api/v1/getMyStory`, {
+      const response = await axios.get(`https://swipstory-iwwo.onrender.com/api/v1/getMyStory`, {
         headers: {
           Authorization: `Bearer ${token}`,
         }
