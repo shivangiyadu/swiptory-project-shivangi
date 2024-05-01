@@ -1,0 +1,42 @@
+.mainContainer h1{
+    align-items: center;
+    text-align: center;
+    top:8rem;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    gap: 2.5rem; 
+    top:8rem;
+}
+
+.container > div {
+    width: calc((100% - 7.5rem) / 4); /* Calculate width for each card with margins */
+    position: relative; 
+}
+
+.container img {
+    height: 29rem;
+    width: 100%;
+    border-radius: 2rem;
+}
+
+.container h2 {
+    position: absolute;
+    top: 20rem; 
+    font-family: "Times New Roman", Times, serif;
+    width: 100%;
+    top: 23rem;
+    right:10rem;
+    text-align: center; }
+
+.container p {
+    position: absolute;
+    top: 22rem; 
+    font-family: "Times New Roman", Times, serif;
+    width: 100%; 
+     right:10rem;
+     font-size: 1.5rem;
+    top:25rem;
+    text-align: center; 
+}

@@ -1,0 +1,35 @@
+
+
+.bookmarkContainer h1{
+    text-align: center;
+   
+}
+.styleContainer > div {
+    width: calc((100% - 10rem) / 4); /* Adjusted width for each card with margins */
+    position: relative;
+}
+.styleContainer{
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
+    gap: 2.5rem; 
+    top:8rem;
+    padding: 3rem;
+}
+.styleContainer img{
+    height: 29rem;
+    width: 100%;
+    border-radius: 2rem;
+}
+.styleContainer h2{
+    position: absolute;
+   top:25rem;
+   
+}
+.styleContainer p{
+    position: absolute;
+    font-family: "Times New Roman", Times, serif;
+    width: 100%; 
+     font-size: 1.5rem;
+    top:25rem;
+    text-align: center; 
+}

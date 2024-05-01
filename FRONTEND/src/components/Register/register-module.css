@@ -1,0 +1,73 @@
+.register-form{
+    position: absolute;
+    width: 39rem; 
+    height: 30.125rem; 
+    top: 12.4375rem; 
+    left: 21.8125rem; 
+    background-color:#fadada;
+    border-radius: 2rem; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    top: 26rem;
+    left: 50%;
+    z-index: 9999;
+    box-shadow: 0px .4rem .3rem 0px rgba(255, 255, 255, 0.25);
+    
+}
+.close-register{
+    cursor: pointer;
+    position: absolute;
+    top:2.5rem;
+    right:4.5rem;
+
+}    
+.register-heading{
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    position:absolute;
+    top:7.5rem;
+    left:10.5rem;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.username-heading,.password-heading{
+    color: #000;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.register-btn{
+    cursor: pointer;
+    width: 6.9rem;
+    position: absolute;
+        height: 2.5rem;
+        border-radius: 2rem;
+        background: #73ABFF;
+        color: #000;
+        left:7rem;
+        top:7.5rem;
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 1.3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        border: none;
+        
+}
+.register-info{
+    position: absolute;
+    left:10.5rem;
+}
+

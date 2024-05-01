@@ -1,0 +1,72 @@
+.your-stories {
+  width: 19.0625rem;
+  height: 27.6875rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 4rem;
+}
+.your-stories img {
+  
+  height: 29rem;
+  width: 19rem;
+  position: absolute;
+  border-radius: 2rem;
+}
+.your-stories h2 {
+  position: absolute;
+  flex-wrap: wrap;
+  margin-top: 20rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+}
+.your-stories p {
+  position: absolute;
+  flex-wrap: wrap;
+  margin-top: 24rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+
+}
+.your-stories .button {
+  position: absolute;
+  width: 4.9375rem;
+  height: 2.125rem;
+  margin-top: 27.5rem;
+  border-radius: 1rem;
+  margin-left: 7.5rem;
+  color: black;
+  background-color: white;
+}
+
+.heart {
+  position: absolute;
+  top: 36.9rem;
+  left: 18rem;
+  font-size: 40px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  z-index: 10000;
+}
+
+.white {
+  color: white;
+}
+
+.red {
+  color: red;
+}
+.bookmark-btn {
+  
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    z-index: 1000;
+}
+.share-btn {
+  position: absolute;
+  top: 3rem;
+  left: 20rem;
+}
+
+

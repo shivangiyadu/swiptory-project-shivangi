@@ -1,0 +1,245 @@
+
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    width: 45.625rem;
+    height: 33.625rem;
+    background-color: #fbdfdf;
+    top: 6.3125rem;
+    left: 26.3125rem;
+    border-radius: 2rem;
+    z-index: 9999;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 33.1875rem;
+    height: 22.0625rem;
+    top: 20.1875rem;
+    left: 23.875rem;
+}
+.SlideContainer{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: auto;
+    gap:1rem;
+    top: 7.1875rem;
+    left: 6.875rem;
+ 
+}
+
+.slide-wrapper {
+  padding: 0.5rem; 
+  cursor: pointer
+}
+
+.slide-wrapper button {
+  width: 4rem; 
+  height: 3.513rem;
+  border-radius:1rem;
+  cursor: pointer;
+  box-shadow: 0px .2rem 1.5rem 0px rgba(0, 0, 0, 0.26);
+
+}
+.close-btn-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 0 2rem;
+  
+
+}
+
+
+
+
+/*
+.slide1,
+.slide2,
+.slide3,
+.slide4{
+    width: 4.75rem;
+    height: 3.8125rem;
+    cursor: pointer;
+    top: 21rem ;
+    left: 22.8125rem;
+    border-radius:1rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px .2rem 1.5rem 0px rgba(0, 0, 0, 0.26);
+}
+*/
+.add{
+    
+   width: 9.3125rem;
+   height: 0.8125rem;
+   top: 17.5rem;
+   left: 5.25rem;
+}
+.close-addStory{
+    /* position: fixed; */
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+   top: 10.1875rem;
+   left: 63.625rem;
+}
+.heading-label {
+    position: absolute;
+    width: 5.0625rem;
+    height: 1.4375rem;
+    top: 12.8125rem;
+    left: 6.5rem;
+    opacity: 0px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.465rem;
+    text-align: center;
+  }
+  .heading-input {
+    position: absolute;
+    width: 15.3125rem;
+    height: 2.1875rem;
+    top: 12.8125rem;
+    left: 14.8125rem;
+    gap: 0px;
+    border: 1px solid black;
+    opacity: 0px;
+    
+  }
+  .description-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    line-height: 23.44px;
+    text-align: center;
+    width: 6.9375rem;
+    height: 1.4375rem;
+    top: 16.5rem;
+    left: 6.5rem;
+  }
+  .description-input {
+    position: absolute;
+    width: 15.3125rem;
+    height: 5.875rem;
+    top: 16.5rem;
+    left: 14.8125rem;
+    
+  }
+  .image-label {
+    position: absolute;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: center;
+    left: 6.5rem;
+    top: 24rem;
+    
+  }
+  .image-input {
+    position: absolute;
+    width: 15.0625rem;
+    height: 1.4375rem;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    left: 14.8125rem;
+    top: 24rem;
+    line-height: 1.465rem;
+   
+  }
+  .category-label {
+    position: absolute;
+    width: 15.0625rem;
+    height: 1.4375rem;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    left: 6.5rem;
+    top: 26.5rem;
+    line-height: 1.465rem;
+   
+  }
+  .category-input {
+    position: absolute;
+    width: 15.0625rem;
+    height: 1.4375rem;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    left: 14.8125rem;
+    top: 26.9rem;
+    line-height: 1.465rem;
+  
+  }
+  .button-div {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    height: 1.9375rem;
+    top: 29.625rem;
+    color: white;
+    border:1px solid white;
+    cursor: pointer;
+   
+  }
+  
+  .prev-btn {
+    position: absolute;
+    width: 5.6875rem;
+    left: 2.5rem;
+    height: 2rem;
+    color:aliceblue;
+    cursor: pointer;
+    border-radius: 2rem;
+    font-size: medium;
+    background: #7EFF73;
+  }
+  
+  .next-btn {
+    width: 5.6875rem;
+    color:white;
+    position: absolute;
+    cursor: pointer;
+    left: 12rem;
+    height: 2rem;
+    font-size: medium;
+    border-radius: 1rem;
+    background: #73ABFF;
+  }
+  
+  .post-btn {
+    position: absolute;
+    width: 5.6875rem;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    height: 2rem;
+    color:white;
+    left: 28rem;
+    background: #FF7373;
+  }
+  .slide-wrapper button.active-slide {
+    background-color: lightgreen;
+  }
+  
+  
+  
+
+
+
+
+
+

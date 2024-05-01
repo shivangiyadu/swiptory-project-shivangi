@@ -1,0 +1,94 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 7.3 rem;
+  width: fixed;
+  padding: 2rem;
+  height: 5.2rem;
+  align-items: center;
+  position: relative;
+  box-shadow: 0px 0.2rem 1.5rem 0px rgba(0, 0, 0, 0.26);
+}
+.heading-navbar {
+  font-size: 1rem;
+  font-weight: 700rem;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+}
+.auth-button {
+  display: flex;
+  gap: 2rem;
+}
+.register-now,
+.sign-in {
+  cursor: pointer;
+  color: white;
+  height: 2.8rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  border: none;
+}
+.register-now {
+  background: #ff7373;
+  color: white;
+  width: 9.5rem;
+}
+
+.sign-in {
+  background: #73abff;
+  color: white;
+  width: 5.5rem;
+}
+
+.bookmark-image {
+  position: absolute;
+  width: 1.19875rem;
+  height: 1.531875rem;
+  top: 1.1125rem;
+  left: 71.275rem;
+}
+
+.bookmark-button {
+  cursor: pointer;
+  background-color: #ff7373;
+  color: white;
+  height: 2.8rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  text-align: center;
+  border: none;
+  width: 11.5rem;
+}
+.sidebar {
+  position: absolute;
+  width: 1.125rem;
+  height: 0.75rem;
+  top: 1.825rem;
+  right:1rem;
+    cursor: pointer;
+  border: 0.125rem 0 0 0;
+}
+.user-details {
+    position: absolute;
+    width: 15.6875rem;
+    height: 10.625rem;
+  top: 5.25rem;
+ right: 0rem;
+   background-color:white;
+   z-index: 999;
+}
+.logout-btn{
+ 
+ position: absolute;
+ top:6rem;
+  background-color: #ff7373;
+  font-size: 1.2rem;
+  width: 6.5rem;
+  height: 2.5125rem;
+  left:rem;
+  color:white;
+  border-radius:1rem;
+  cursor: pointer;
+}
