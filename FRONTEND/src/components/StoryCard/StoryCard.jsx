@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./story-module.css";
+import "./story.module.css";
 import { AddStory } from "../AddStory/AddStory";
 import Modal from "react-modal";
 import Stories from "react-insta-stories";

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './homepage-module.css';
+import './homepage.module.css';
 import { useState ,useEffect} from 'react';
 import allImage from '../../assets/categories/squirrel.jpg';
 import foodImage from '../../assets/categories/Food.jpeg';

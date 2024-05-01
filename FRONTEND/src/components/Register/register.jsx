@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./register-module.css";
+import "./register.module.css";
 import eyeImage from "../../assets/categories/eyeVector .png";
 import cross from "../../assets/categories/cross.jpg";
 import axios from "axios";

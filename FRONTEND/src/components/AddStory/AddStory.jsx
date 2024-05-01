@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import cross from "../../assets/categories/cross.jpg";
 import crossIcon from "../../assets/categories/SmallCross.jpg";
-import "./addstory-module.css";
+import "./addstory.module.css";
 import axios from "axios";
 import toast from "react-hot-toast";
 

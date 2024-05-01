@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react'
-import "./login-module.css"
+import "./login.module.css"
 import eyeImage from "../../assets/categories/eyeVector .png"
 import cross from "../../assets/categories/cross.jpg"
 

@@ -1,7 +1,7 @@
 
 import React, { useState ,useEffect} from 'react';
 import bookmark from "../../assets/categories/bookmark.jpg";
-import "./navbar-module.css";
+import "./navbar.module.css";
 import Register from '../Register/register';
 import Modal from "react-modal";
 import { Login } from "../login/Login"
